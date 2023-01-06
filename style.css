@@ -1,0 +1,242 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.header {
+  background: rgb(155, 151, 151);
+  background-image: url(../images/donation2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  min-height: 80vh;
+  position: relative;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.header-desc {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.btn-secondary {
+  background: #ff5959;
+  border-radius: 5px;
+  margin-left: 600px;
+
+  height: 46px;
+  border: none;
+  padding: 16px 12px;
+  color: white;
+}
+.donate {
+  margin-bottom: 130px;
+}
+.donate-title {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #121212;
+}
+.donate-desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+}
+.moneys {
+  display: flex;
+  justify-content: center;
+}
+.money {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+}
+.money:hover {
+  width: 136px;
+  height: 100px;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+.money-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #707070;
+}
+.money-title:hover {
+  font-family: "Inter";
+
+  font-weight: 700;
+  font-size: 30px;
+
+  text-align: center;
+
+  color: #ff5959;
+}
+.other-amount {
+  text-align: center;
+}
+.amount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #b3b3b3;
+}
+.line {
+  width: 765px;
+  border: 1px solid #dadada;
+}
+.btn-primary {
+  /* background: #ff5959;
+  border-radius: 5px;
+  /* margin-left: 680px; */
+  /* align-items: center;
+  height: 46px;
+  border: none;
+  padding: 16px 12px;
+  color: white;
+  margin: 30px;
+  font-family: "Inter"; */
+  padding: 16px 20px;
+  background: #ff5959;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
+.cards {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 80px;
+  gap: 25px;
+}
+.card1 {
+  width: 460px;
+  height: 222px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+.card2 {
+  width: 460px;
+  height: 222px;
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+.card3 {
+  width: 460px;
+  height: 222px;
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+.card-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+}
+.card-desc {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+.contribute {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  gap: 55px;
+  justify-content: space-around;
+}
+.don {
+  width: 456px;
+  height: 400px;
+}
+.cont-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+}
+.cont-desc {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+.break {
+  margin-bottom: 25px;
+}
+.btn-primar {
+  padding: 16px 20px;
+  background: #ff5959;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
+.box {
+  display: flex;
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.box-input {
+  width: 275px;
+  height: 28px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  margin-right: -15px;
+  padding: 15px;
+}
+.footer {
+  background-color: black;
+  height: 170px;
+  margin-top: 100px;
+}
+.humble {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 36px;
+  color: #ff5959;
+  text-align: center;
+  padding: 30px;
+  
+  
+}
+.humble-desc{
+font-family: 'Manrope';
+font-weight: 400;
+font-size: 14px;
+color: #D9DBE1;
+text-align: center;
+top: 25px;
+}

@@ -4,7 +4,7 @@
 } */
 .header {
   background: rgb(155, 151, 151);
-  background-image: url(../images/donation2.jpg);
+  background-image: url("../images/donation2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
